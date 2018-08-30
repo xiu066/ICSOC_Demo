@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_instruction.css" type="text/css" />
+
+</head>
+<body>
+    <div class="content-container">
+        <div id="left">
+            <h1>Instructions</h1>
+            <ol>
+                <li>Drag & Drop</li>
+                <li>Click one of a node's endpoints and hold the arrow to connect to another endpoint</li>
+                <li>Double click to rename a node </li>
+                <li>Double click to remove a connection</li>
+                <li>Hover mouse on a node, click "x" to remove it</li>
+                <li>Hover mouse on a transition, click "star" to highlight it</li>
+                <li>Click "Verify" button to check your model</li>
+                <li>If your model is correct, the "Verify" button will be replaced by "Next" button</li>
+                <li>You'd better not to change your model after "Verify" button being replaced</li>
+                <li>Click the "Next" button to check the next marking of the net</li>
+                <li>The "postmark" of each token in current marking is shown in the right column</li>
+            </ol>
+        </div>
+
+        <div id="center">
+            <h1>Restrictions</h1>
+            <h2>Petri Net Rules</h2>
+            <p>
+                A net must consist of places, transitions, and arcs. Arcs can run from a place to a transition or vice versa, but never between places or between transitions.
+            </p>
+            <h2>Control Flow Pattern Rules</h2>
+            <ol>
+                <li>The process must have only one pair of starting and ending places.</li>
+                <li>Starting/ending place must have only one output/input arc.</li>
+                <li>Each white node (non-starting/ending places and the task transitions) must have only one input arc and one output arc.</li>
+                <li>The process structure must follow the <a id="manual" href='patterns.html' target=_blank><b>Control Flow Patterns</b></a>.</li>
+            </ol>
+        </div>
+
+        <div id="right">
+            <h1>Result Interpretation</h1>
+            <ol>
+                <li><b>PM(tokenX) = ... :</b> the postmark of token X is ...</li>
+                <li><b>I :</b> initial postmark</li>
+                <li><b>A>B :</b> B executes after A</li>
+                <li><b>A^B :</b> no sequence relation between A and B</li>
+                <li><b>(A^B) :</b> A and B execute in parallel</li>
+                <li><b>[A^B] :</b> A and B are in two mutually exclusive branches</li>
+                <li><b>{A} :</b> A executes in loop</li>
+            </ol>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
