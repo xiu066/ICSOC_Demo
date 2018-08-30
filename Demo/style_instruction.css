@@ -1,0 +1,25 @@
+#left {
+		border: 1px solid #00bfff;
+		width: 350px;
+		height: 1000px;
+		position: absolute;
+	}
+
+#center {
+		border: 1px solid #00bfff;
+		width: 350px;
+		position: absolute;
+		height: 1000px;
+		left: 368px;
+	}
+
+#right {
+		border: 1px solid #00bfff;
+		width: 350px;
+		position: absolute;
+		height: 1000px;
+		left: 728px;
+	}
+h1 {
+        text-align:center;
+}

@@ -1,0 +1,131 @@
+.dragActive { border: 2px dotted orange; }
+
+.dropHover { border: 1px dotted red; }
+
+.item {
+    	border: 1px solid black;
+		background-color: #ddddff;
+		width: 100px;
+		height: 100px;
+		position: absolute;
+    }
+
+#left {
+		border: 1px solid #00bfff;
+		width: 110px;
+		height: 1000px;
+		position: absolute;
+	}
+
+#right {
+		border: 1px solid #00bfff;
+		width: 600px;
+		position: absolute;
+		height: 1000px;
+		left: 128px;
+	}
+
+#instruction {
+		border: 1px solid #00bfff;
+		width: 330px;
+		height: 1000px;
+		position: absolute;
+		left: 738px;
+
+        /* long string line break */
+        word-wrap: break-word;
+	}
+
+.place {
+        box-shadow: 2px 2px 19px #aaa;
+        -o-box-shadow: 2px 2px 19px #aaa;
+        -webkit-box-shadow: 2px 2px 19px #aaa;
+        -moz-box-shadow: 2px 2px 19px #aaa;
+        -moz-border-radius: 0.5em;
+        border-radius: 0.5em;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        border: 1px solid #346789;
+        /*line-height: 40px;*/
+        text-align: center;
+        z-index: 20;
+        position: absolute;
+        padding: 1px;
+        font-size: 8pt;
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        line-height: 30px;
+        border-radius: 25em;
+    }
+
+.transition {
+        box-shadow: 2px 2px 19px #aaa;
+        -o-box-shadow: 2px 2px 19px #aaa;
+        -webkit-box-shadow: 2px 2px 19px #aaa;
+        -moz-box-shadow: 2px 2px 19px #aaa;
+        -moz-border-radius: 0.5em;
+        border-radius: 0.5em;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        border: 1px solid #346789;
+        /*line-height: 40px;*/
+        text-align: center;
+        z-index: 20;
+        position: absolute;
+        padding: 1px;
+        font-size: 8pt;
+        cursor: pointer;
+        width: 80px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+
+    .token {
+            -moz-border-radius: 0.5em;
+            border-radius: 0.5em;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            border: 1px solid #346789;
+            /*line-height: 40px;*/
+            text-align: center;
+            z-index: 20;
+            position: absolute;
+            padding: 1px;
+            font-size: 5pt;
+            cursor: pointer;
+            width: 15px;
+            height: 15px;
+            line-height: 12px;
+            border-radius: 25em;
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            margin-left: 7px;
+            margin-top: -20px;
+        }
+
+    #sPlace { left: 15px; top: 10px; }
+    #ePlace { left: 15px; top: 70px; }
+    #nPlace { left: 15px; top: 130px; }
+    #nTransition { left: 15px; top: 190px; }
+    #sTransition { left: 15px; top: 240px; }
+    #xTransition { left: 15px; top: 290px; }
+    #aTransition { left: 15px; top: 340px; }
+    #iTransition { left: 15px; top: 390px; }
+    #lTransition { left: 15px; top: 440px; }
+    #oTransition { left: 15px; top: 490px; }
+
+.normal {background-color: #eeeeef; color: grey;}
+.black {background-color: #66ccff; color: black; font-weight: bold;}
+.onFire {border-color: red; color: red;}
+.node:hover {
+        box-shadow: 2px 2px 19px #444;
+        -o-box-shadow: 2px 2px 19px #444;
+        -webkit-box-shadow: 2px 2px 19px #444;
+        -moz-box-shadow: 2px 2px 19px #444;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+    }
+#buttons {margin-left: 20px;}

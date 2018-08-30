@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="jquery-ui-1.10.4.min.js"></script>
+    <script src="jquery.jsPlumb-1.6.2-min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="content-container">
+        <div id="left">
+            <div class="node place sPlace black" id="sPlace">Start</div>
+            <div class="node place ePlace black" id="ePlace">End</div>
+            <div class="node place nPlace normal" id="nPlace">Place</div>
+            <div class="node transition nTransition normal" id="nTransition">Transition</div>
+            <div class="node transition sTransition black" id="sTransition">Split</div>
+            <div class="node transition xTransition black" id="xTransition">XOR-join</div>
+            <div class="node transition aTransition black" id="aTransition">AND-join</div>
+            <div class="node transition iTransition black" id="iTransition">LOOP-in</div>
+            <div class="node transition lTransition black" id="lTransition">LOOP</div>
+            <div class="node transition oTransition black" id="oTransition">LOOP-out</div>
+        </div>
+
+        <div id="right">
+            <span id="buttons"><button id="verify">Verify</button></span>
+            <span>&nbsp &nbsp &nbsp &nbsp &nbsp</span>
+            <span><a id="manual" href='instruction.html' target=_blank><b>Instruction</b></a></span>
+            <span>&nbsp &nbsp &nbsp &nbsp &nbsp</span>
+            <span><a id="manual" href='patterns.html' target=_blank><b>Control Flow Patterns</b></a></span>
+        </div>
+
+        <div id="instruction">
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
